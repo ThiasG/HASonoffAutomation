@@ -68,6 +68,8 @@ blueprint:
 triggers:
   - trigger: state
     entity_id: !input external_temperature_sensor
+  - trigger: time_pattern
+    hours: /1
 variables:
   external_temperature_sensor: !input external_temperature_sensor
 conditions:
