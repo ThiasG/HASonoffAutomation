@@ -53,7 +53,7 @@ blueprint:
         entity:
           filter:
             - domain: sensor
-              # device_class: temperature
+              device_class: temperature
 
     trv_external_temperature_input:
       name: Sonoff TRVZB(s)
