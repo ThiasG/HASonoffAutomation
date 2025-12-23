@@ -63,7 +63,7 @@ blueprint:
           multiple: true
           filter:
             - domain: number
-              device_class: temperature
+              # device_class: temperature
 
 triggers:
   - trigger: state
